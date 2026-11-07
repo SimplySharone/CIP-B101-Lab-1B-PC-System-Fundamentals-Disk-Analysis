@@ -216,19 +216,9 @@ Capture screenshots of the command outputs.
 
 ### Evidence A2 – Logical Volumes and File Systems
 
-[Insert Screenshot Here]
+<img width="1224" height="633" alt="image" src="https://github.com/user-attachments/assets/f64e35b1-c121-4505-b629-414dbc150404" />
 
 *Figure 4: Logical volumes, file systems, total capacity and available storage.*
-
-### Storage Observation Table
-
-| Disk / Volume | Model or Drive | Total Size | File System | Free Space |
-|---|---|---|---|---|
-| Disk 0 | [Insert model] | [Insert size] | N/A | N/A |
-| C: | [Insert volume] | [Insert size] | [NTFS / Other] | [Insert size] |
-| D: | [Insert volume] | [Insert size] | [NTFS / Other] | [Insert size] |
-
-*Add additional rows where necessary.*
 
 ### Forensic Interpretation
 
@@ -314,17 +304,20 @@ Select-Object -First 20 Name, Id, CPU, WorkingSet
 
 ### Evidence B1 – Running Processes
 
-[Insert Screenshot Here]
+<img width="1033" height="961" alt="image" src="https://github.com/user-attachments/assets/28a265a1-a87e-40de-a6b5-cd63eacfc9c8" />
 
 *Figure 5: Running Windows processes and associated Process Identification Numbers.*
 
 ### Process Observation Table
 
+
 | Process Name | PID | Likely Purpose |
 |---|---|---|
-| [Process 1] | [PID] | [Explain purpose] |
-| [Process 2] | [PID] | [Explain purpose] |
-| [Process 3] | [PID] | [Explain purpose] |
+| explorer | 5440 | Manages the Windows user interface, including the taskbar, desktop, and file browser. |
+| MsMpEng | 3820 | The core background scanning engine for Microsoft Defender Antivirus. |
+| dwm | 1100 | Desktop Window Manager, which handles visual rendering, transparency, and window animations. |
+| powershell | 6968 | The active command-line shell interface executing the current script/commands. |
+| lsass | 868 | Local Security Authority Subsystem Service, responsible for enforcing security policies and user authentication. |
 
 ### Forensic Interpretation
 
@@ -575,7 +568,7 @@ Use the actual output to identify the first and second partitions.
 
 ### Evidence C2 – Partition Table
 
-[Insert Screenshot Here]
+<img width="1213" height="622" alt="image" src="https://github.com/user-attachments/assets/3fd1fdd7-31e8-40fb-a703-da385785175b" />
 
 *Figure 6: Partition table showing partition numbers, starting sectors, ending sectors and sector information.*
 
@@ -618,7 +611,7 @@ Partition Size (GiB) =
 
 ### Evidence – Partition 1
 
-[Insert Screenshot Here]
+<img width="1246" height="943" alt="image" src="https://github.com/user-attachments/assets/5d7ba730-0e1c-45eb-bca7-f354f53fbc51" />
 
 *Figure 7: Supporting partition table evidence and calculation for Partition 1.*
 
@@ -657,11 +650,9 @@ Partition Size (GiB) =
 = [Calculated partition size] GiB
 ```
 
-**Result:** Partition 2 has a calculated size of **[Insert result] GiB**.
-
 ### Evidence – Partition 2
 
-[Insert Screenshot Here]
+<img width="1902" height="819" alt="image" src="https://github.com/user-attachments/assets/38c29308-458d-489d-912c-52dd72bb5af9" />
 
 *Figure 8: Supporting partition table evidence and calculation for Partition 2.*
 
@@ -728,7 +719,7 @@ Get-Volume
 
 ### Evidence D2 – PowerShell Output
 
-[Insert Screenshot Here]
+<img width="1349" height="603" alt="image" src="https://github.com/user-attachments/assets/d0923e05-af84-437d-8fa5-345cbc27da9d" />
 
 *Figure 10: PowerShell output showing physical disks, partition information and logical volumes.*
 
@@ -790,7 +781,6 @@ These commands are used to list and inspect the selected disk and its partitions
 
 ### Evidence D3 – DiskPart Output
 
-[Insert Screenshot Here]
 
 *Figure 11: DiskPart output showing the available disks and partition information.*
 
@@ -917,7 +907,7 @@ msinfo32
 
 ### Evidence E1 – BIOS/UEFI Mode
 
-[Insert Screenshot Here]
+<img width="1817" height="849" alt="image" src="https://github.com/user-attachments/assets/72255467-dc60-4d79-a713-d53daf76e177" />
 
 *Figure 12: System Information showing the computer's BIOS mode.*
 
@@ -993,7 +983,7 @@ wmic logicaldisk get caption,filesystem,size,freespace,volumename
 
 ### Evidence F1 – File System Identification
 
-[Insert Screenshot Here]
+<img width="1159" height="519" alt="image" src="https://github.com/user-attachments/assets/17c7c433-1ee9-441c-a57d-623b9ee771d0" />
 
 *Figure 13: File system information obtained from the examined Windows volumes.*
 
