@@ -1320,22 +1320,24 @@ The comparison demonstrates how partition sizes can be independently calculated 
 
 ---
 
+
 # 10. Consolidated Evidence Register
 
 The following table provides a record of the mandatory practical evidence required by the ICDFA laboratory manual.
 
 | Evidence ID | Required Evidence | Screenshot / Section | Status |
 |---|---|---|---|
-| EVID-001 | System Information or systeminfo output | Figure 1–2 | [Pending / Complete] |
-| EVID-002 | Disk model and storage capacity | Figure 3 | [Pending / Complete] |
-| EVID-003 | Logical volume and file system information | Figure 4 | [Pending / Complete] |
-| EVID-004 | Running processes and PID information | Figure 5 | [Pending / Complete] |
-| EVID-005 | Disk and partition table inspection output | Figure 6, 9–11, 15 | [Pending / Complete] |
-| EVID-006 | Partition 1 calculation and supporting evidence | Figure 7, 16 | [Pending / Complete] |
-| EVID-007 | Partition 2 calculation and supporting evidence | Figure 8, 17 | [Pending / Complete] |
-| EVID-008 | BIOS/UEFI boot mode evidence | Figure 12 | [Pending / Complete] |
-| EVID-009 | File system identification evidence | Figure 13 | [Pending / Complete] |
-| EVID-010 | Final report summary and conclusion | Section 11 | [Pending / Complete] |
+| EVID-001 | System Information or systeminfo output | Figure 1–2 | Complete |
+| EVID-002 | Disk model and storage capacity | Figure 3 | Complete |
+| EVID-003 | Logical volume and file system information | Figure 4 | Complete |
+| EVID-004 | Running processes and PID information | Figure 5 | Complete |
+| EVID-005 | Disk and partition table inspection output | Figure 6, 9–11, 15 | Complete |
+| EVID-006 | Partition 1 calculation and supporting evidence | Figure 7, 16 | Complete |
+| EVID-007 | Partition 2 calculation and supporting evidence | Figure 8, 17 | Complete |
+| EVID-008 | BIOS/UEFI boot mode evidence | Figure 12 | Complete |
+| EVID-009 | File system identification evidence | Figure 13 | Complete |
+| EVID-010 | Final report summary and conclusion | Section 11 | Complete |
+
 
 ---
 
@@ -1393,7 +1395,7 @@ All disk examination activities were conducted using read-only methods, and no d
 
 **Laboratory:** Lab 1B – PC System Fundamentals, Disk Sectors and Partition Analysis
 
-**Date:** [Insert Submission Date]
+**Date:** 7th November, 2026.
 
 ---
 
