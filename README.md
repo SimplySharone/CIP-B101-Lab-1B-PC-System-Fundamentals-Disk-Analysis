@@ -9,13 +9,12 @@
 | Field | Details |
 |---|---|
 | **Student Name** | Sharon Omowumi |
-| **Registration Number** | [Insert Registration Number] |
+| **Registration Number** | [FDFC2617050 |
 | **Course Code** | CIP-B101 |
 | **Course Title** | Basic Computer Skills for Digital Forensics |
 | **Laboratory Code** | Lab 1B |
 | **Laboratory Title** | PC System Fundamentals, Disk Sectors and Partition Analysis |
-| **Instructor** | [Insert Instructor Name] |
-| **Submission Date** | [Insert Submission Date] |
+| **Submission Date** | 5th November, 2026 |
 | **Practical Environment** | Windows 10/11 Virtual Machine or Physical Computer |
 | **Report Format** | PDF |
 
@@ -131,28 +130,29 @@ systeminfo
 
 **Screenshot 1: Windows System Information**
 
-[Insert Screenshot Here]
+<img width="1548" height="853" alt="image" src="https://github.com/user-attachments/assets/11096c08-4d40-470a-a752-684cd15a637b" />
 
 *Figure 1: System Information showing the operating system, processor, BIOS mode, installed memory and system architecture.*
 
 **Screenshot 2: Systeminfo Command Output**
 
-[Insert Screenshot Here]
+<img width="1181" height="955" alt="image" src="https://github.com/user-attachments/assets/59ef3721-c8a6-45cd-87a2-f4c24e0fcb1a" />
 
 *Figure 2: System identification information collected using the Windows systeminfo command.*
 
 ### System Specification Results
 
+
 | Specification | Observed Result |
 |---|---|
-| Operating System | [Insert result] |
-| OS Version | [Insert result] |
-| System Type | [Insert result] |
-| Processor | [Insert result] |
-| Installed RAM | [Insert result] |
-| BIOS Mode | [UEFI / Legacy] |
-| Secure Boot State | [On / Off / Unsupported] |
-| Computer Name | [Insert result] |
+| Operating System | Microsoft Windows 11 Pro |
+| OS Version | 10.0.26300 N/A Build 26300 |
+| System Type | x64-based PC |
+| Processor | Intel64 Family 6 Model 154 Stepping 4 GenuineIntel ~2496 Mhz |
+| Installed RAM | 4,077 MB |
+| BIOS Mode | Legacy |
+| Secure Boot State | Unsupported |
+| Computer Name | SHARON-WIN11 |
 
 ### Forensic Interpretation
 
@@ -210,7 +210,7 @@ Capture screenshots of the command outputs.
 
 ### Evidence A2 – Physical Disk Information
 
-[Insert Screenshot Here]
+<img width="1118" height="633" alt="image" src="https://github.com/user-attachments/assets/22282f53-80e8-49b8-b341-95127f52edcd" />
 
 *Figure 3: Physical disk model and storage capacity obtained through PowerShell.*
 
