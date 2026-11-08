@@ -845,9 +845,9 @@ msinfo32
 
 | Parameter | Result |
 |---|---|
-| BIOS Mode | [UEFI / Legacy] |
-| Secure Boot | [On / Off / Unsupported] |
-| Partition Style | [GPT / MBR] |
+| BIOS Mode | [UEFI |
+| Secure Boot | [On |
+| Partition Style | [GPT |
 
 **Note:** BIOS mode and partition style are related but are not identical. A UEFI system commonly uses GPT, but the two properties should be verified independently.
 
