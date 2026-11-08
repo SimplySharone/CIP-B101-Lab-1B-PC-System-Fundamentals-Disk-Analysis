@@ -9,13 +9,13 @@
 | Field | Details |
 |---|---|
 | **Student Name** | Sharon Omowumi |
-| **Registration Number** | [FDFC2617050 |
+| **Registration Number** | FDFC2617050 |
 | **Course Code** | CIP-B101 |
 | **Course Title** | Basic Computer Skills for Digital Forensics |
 | **Laboratory Code** | Lab 1B |
 | **Laboratory Title** | PC System Fundamentals, Disk Sectors and Partition Analysis |
 | **Submission Date** | 5th November, 2026 |
-| **Practical Environment** | Windows 10/11 Virtual Machine or Physical Computer |
+| **Practical Environment** | Windows 11 Virtual Machine |
 | **Report Format** | PDF |
 
 ---
@@ -55,8 +55,8 @@ The objectives of this laboratory are to:
 
 | Component | Description |
 |---|---|
-| Host Operating System | [Insert host operating system] |
-| Virtualisation Software | Oracle VM VirtualBox / Not Applicable |
+| Host Operating System | Windows 11 Machine |
+| Virtualisation Software | Oracle VM VirtualBox |
 | Examination Operating System | Windows 10/11 |
 | System Architecture | [32-bit / 64-bit] |
 | Examination Type | Preliminary system examination |
@@ -572,83 +572,13 @@ Use the actual output to identify the first and second partitions.
 
 *Figure 6: Partition table showing partition numbers, starting sectors, ending sectors and sector information.*
 
-### Partition 1 Calculation
-
-| Parameter | Value |
-|---|---|
-| Disk Number | [Insert disk number] |
-| Partition Number | 1 |
-| Starting Sector | [Insert value] |
-| Ending Sector | [Insert value] |
-| Sector Count | [Insert value] |
-| Bytes per Sector | [Insert value] |
-| File System | [Insert value] |
-
-**Calculation:**
-
-```text
-Sector Count = Ending Sector - Starting Sector + 1
-
-Partition Size (bytes) = Sector Count × Bytes per Sector
-
-Partition Size (GiB) =
-(Sector Count × Bytes per Sector) ÷ 1,073,741,824
 ```
-
-**Insert actual calculation:**
-
-```text
-[Sector Count] × [Bytes per Sector]
-
-= [Total bytes]
-
-[Total bytes] ÷ 1,073,741,824
-
-= [Calculated partition size] GiB
-```
-
-**Result:** Partition 1 has a calculated size of **[Insert result] GiB**.
 
 ### Evidence – Partition 1
 
 <img width="1246" height="943" alt="image" src="https://github.com/user-attachments/assets/5d7ba730-0e1c-45eb-bca7-f354f53fbc51" />
 
 *Figure 7: Supporting partition table evidence and calculation for Partition 1.*
-
-### Partition 2 Calculation
-
-| Parameter | Value |
-|---|---|
-| Disk Number | [Insert disk number] |
-| Partition Number | 2 |
-| Starting Sector | [Insert value] |
-| Ending Sector | [Insert value] |
-| Sector Count | [Insert value] |
-| Bytes per Sector | [Insert value] |
-| File System | [Insert value] |
-
-**Calculation:**
-
-```text
-Sector Count = Ending Sector - Starting Sector + 1
-
-Partition Size (bytes) = Sector Count × Bytes per Sector
-
-Partition Size (GiB) =
-(Sector Count × Bytes per Sector) ÷ 1,073,741,824
-```
-
-**Insert actual calculation:**
-
-```text
-[Sector Count] × [Bytes per Sector]
-
-= [Total bytes]
-
-[Total bytes] ÷ 1,073,741,824
-
-= [Calculated partition size] GiB
-```
 
 ### Evidence – Partition 2
 
